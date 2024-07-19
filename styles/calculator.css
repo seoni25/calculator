@@ -1,0 +1,71 @@
+/*디자인 참고
+https://blog.cordelia273.space/32
+*/
+
+/*초기 설정*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul li, ol li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/*레이아웃 설정*/
+#container {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	transform: translateY(20%);
+	border: 2px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	width: 100px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
+}
+#resultBox {
+	margin: 5px;
+}
+#resultBox, input {
+	text-align: right;
+}
+input {
+	width: 95%;
+	height: 100%;
+	padding: 0% 2%;
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+	background-color: lightgrey;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+button {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px black;
+	transition-duration: 0.3s;
+}
+button:active{
+	margin-left: 3px;
+	margin-top: 3px;
+	box-shadow: none;
+}
+.keypad-num {
+	background-color: whitesmoke;
+}
+.keypad-func {
+	background-color: orange;
+	color: white;
+}
